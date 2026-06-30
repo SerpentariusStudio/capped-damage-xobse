@@ -1,0 +1,10 @@
+# Compiler intermediates (throwaway build output).
+# The usable plugin DLL (build/cappeddamage.dll) is intentionally tracked.
+build/*.obj
+build/*.lib
+build/*.exp
+build/*.pdb
+build/*.ilk
+
+# Runtime log written next to the game executable
+obse_cappeddamage.log

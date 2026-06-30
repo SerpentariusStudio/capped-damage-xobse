@@ -1,0 +1,7 @@
+{
+    "name": "CappedDamage",
+    "author": "varla",
+    "description": "xOBSE port (original 32-bit Oblivion) of the OBSE64 capped-player-to-enemy-damage plugin. Caps health loss on any non-player actor to 1/3 of its max health per rolling 3-second window. Prevents one-shot kills; damage is clamped before it is applied. Hooks Character/Creature vtable[0xA9] DamageAV_F; player exempt.",
+    "version": "1.0",
+    "target": "xOBSE / Oblivion.exe 1.2.0.416 (Win32)"
+}
